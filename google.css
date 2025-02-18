@@ -1,0 +1,407 @@
+body {
+    display: flex;
+    width: 100vw;
+    height: 98vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.retangle {
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    box-shadow: rgba(111, 100, 100, 0.2) 0px 7px 29px 0px;
+}
+
+.top {
+    width: 100%;
+    height: 8%;
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+.top-right {
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.top-right-one {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #1F1F1F;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.mail:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.top-right-two {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    margin: 0;
+    padding: 0;
+}
+
+.top-right-two:hover {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #b8bec53a;
+    border-radius: 40px;
+}
+
+
+.dot {
+    width: 5px;
+    height: 5px;
+    background-color: #444747;
+    border-radius: 50%;
+}
+
+.top-right-three {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    width: 75%;
+    height: 50%;
+    border-radius: 20px;
+    background-color: #2264D4;
+    color: #EFF4FB;
+    border: none;
+    transition: background-color 0.3s ease;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login:hover {
+    background-color: rgb(62, 121, 223);
+    
+}
+
+.bottom {
+    width: 100%;
+    height: 94%;
+}
+
+.bottom-top {
+    width: 100%;
+    height: 88%;
+}
+
+.b-top-start {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 20px;
+}
+
+.icon-keyboard:hover {
+    cursor: pointer;
+}
+
+.icon-mic:hover {
+    cursor: pointer;
+}
+
+.icon-camera:hover {
+    cursor: pointer;
+}
+
+
+.google {
+    width: 272px;
+    height: 92px;
+}
+
+.b-top-center {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btc-top {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    width: 35%;
+    height: 90%;
+    border-radius: 25px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white; 
+    border: 1px solid #DADCE0; 
+    padding-top: 3px;
+}
+.icon-search {
+    width: 20px;
+    height: 20px;
+    color: #5F6368;
+    font-size: 21px;
+}
+.icon-keyboard {
+    width: 20px;
+    height: 20px;
+    color: #5F6368;
+    font-size: 21px;
+}
+.icon-mic {
+    width: 20px;
+    height: 20px;
+    color: #5F6368;
+    font-size: 21px;
+}
+.icon-camera {
+    width: 20px;
+    height: 20px;
+    color: #5F6368;
+    font-size: 21px;
+}
+
+.intext {
+    width: 70%;
+    height: 99% hide;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    background-color: transparent; 
+    color: black; 
+    outline: none;
+}
+
+.btc-bottom {
+    width: 100%;
+    height: 40%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.find{
+    width: 130px;
+    height: 30px;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #5F6368;
+    margin-right: 7px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+.find:hover {
+    background-color: #f4f4f4;
+    border: 1px solid #d2d2d2;  
+    cursor: pointer;
+    
+}
+
+.fist {
+    width: 200px;
+    height: 30px;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #5F6368;
+    margin-left: 7px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+.fist:hover {
+    background-color: #f4f4f4;
+    border: 1px solid #d2d2d2;
+    cursor: pointer;
+}
+
+.b-top-end {
+    width: 100%;
+    height: 39%;
+    display: flex;
+    justify-content: center;
+}
+
+.language {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 10px
+}
+
+.language_color {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    color: #1A0DAB;
+}
+
+.E:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.F:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.C:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bottom-bottom {
+    width: 100%;
+    height: 12%;
+    background-color: rgb(70, 86, 136);
+}
+
+.bb-top {
+    width: 100%;
+    height: 50%;
+    background-color: #F2F2F2;
+    border-bottom: 1px solid #DADCE0;
+    display: flex;
+    align-items: center;
+}
+
+.country {
+    padding-left: 1%;
+    color: #1F1F1F;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bb-bottom {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 15px;
+    background-color: #F2F2F2;
+    color: #1F1F1F;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.intro:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.ads:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bui:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.infor:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.private:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.control:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.setting:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bbb-left {
+    width: 60%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 44%;
+}
+
+.bbb-right {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 1%;
+}
+
+@media (max-width: 1024px) {
+    .top-right {
+        width: 40%;
+    }
+    .search {
+        background-color: #4D5156;
+        width: 80%;
+    }
+}
